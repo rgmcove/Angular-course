@@ -3,3 +3,10 @@
     Apellido: {{ apellido }} ,
     Edad: {{ getEdad() + 3 }}
 </p>
+
+<!-- Keyup se lanza cuando se termina de presionar una tecla -->
+<div (keyup)='0'>
+    <label>Repetidor: </label>
+    <input #entrada />
+    {{ entrada.value }}
+</div>
