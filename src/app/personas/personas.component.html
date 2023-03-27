@@ -8,6 +8,13 @@
                 (click)='agregarPersona()'>Agregar Persona</button>
                 <p>{{mensaje}}</p>
             <app-persona></app-persona>
+
+            <!-- Event Binding envio valores del evento por parametro-->
+            <label> Titulo Persona </label>
+            <input type="text" class="form-control" 
+                (input)="modificarTitulo($event)">
+            {{titulo}}
+
         </div>
     </div>
 </div>
