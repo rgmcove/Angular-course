@@ -8,7 +8,6 @@ import { EncapsulamientoComponent } from "./encapsulamiento/encapsulamiento.comp
 import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
 import { ReplicadorComponent } from "./replicador/replicador.component";
 import { SaludarComponent } from "./saludar/saludar.component";
-import { CalculadoraAppComponent } from "./calculadora-app/calculadora-app.component";
 
 @Component({
   selector: 'app-root',
@@ -19,11 +18,11 @@ import { CalculadoraAppComponent } from "./calculadora-app/calculadora-app.compo
     InterpolacionComponent,
     PadreComponent,
     EncapsulamientoComponent,
-    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, CalculadoraAppComponent],
+    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Aplicación Calculadora';
+  title = 'Two-way Binding en Angular';
 }
