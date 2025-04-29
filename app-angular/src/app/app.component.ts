@@ -6,6 +6,7 @@ import { InterpolacionComponent } from "./interpolacion/interpolacion.component"
 import { PadreComponent } from "./padre/padre.component";
 import { EncapsulamientoComponent } from "./encapsulamiento/encapsulamiento.component";
 import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
+import { ReplicadorComponent } from "./replicador/replicador.component";
 
 @Component({
   selector: 'app-root',
@@ -16,11 +17,11 @@ import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.compo
     InterpolacionComponent,
     PadreComponent,
     EncapsulamientoComponent,
-    MostrarMensajeComponent],
+    MostrarMensajeComponent, ReplicadorComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Universidad Angular';
+  title = 'Property Binding en Angular';
 }
