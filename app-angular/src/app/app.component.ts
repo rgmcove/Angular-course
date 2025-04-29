@@ -7,6 +7,7 @@ import { PadreComponent } from "./padre/padre.component";
 import { EncapsulamientoComponent } from "./encapsulamiento/encapsulamiento.component";
 import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
 import { ReplicadorComponent } from "./replicador/replicador.component";
+import { SaludarComponent } from "./saludar/saludar.component";
 
 @Component({
   selector: 'app-root',
@@ -17,11 +18,11 @@ import { ReplicadorComponent } from "./replicador/replicador.component";
     InterpolacionComponent,
     PadreComponent,
     EncapsulamientoComponent,
-    MostrarMensajeComponent, ReplicadorComponent],
+    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Property Binding en Angular';
+  title = 'Two-way Binding en Angular';
 }
