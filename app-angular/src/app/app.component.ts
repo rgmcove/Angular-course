@@ -9,6 +9,7 @@ import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.compo
 import { ReplicadorComponent } from "./replicador/replicador.component";
 import { SaludarComponent } from "./saludar/saludar.component";
 import { ComponenteIfComponent } from "./componente-if/componente-if.component";
+import { LocalReferenceComponent } from "./local-reference/local-reference.component";
 
 @Component({
   selector: 'app-root',
@@ -19,11 +20,11 @@ import { ComponenteIfComponent } from "./componente-if/componente-if.component";
     InterpolacionComponent,
     PadreComponent,
     EncapsulamientoComponent,
-    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, ComponenteIfComponent],
+    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, ComponenteIfComponent, LocalReferenceComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Directiva@if en Angular';
+  title = 'Local Reference en Angular';
 }
