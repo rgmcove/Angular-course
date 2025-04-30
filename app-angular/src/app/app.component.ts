@@ -8,6 +8,7 @@ import { EncapsulamientoComponent } from "./encapsulamiento/encapsulamiento.comp
 import { MostrarMensajeComponent } from "./mostrar-mensaje/mostrar-mensaje.component";
 import { ReplicadorComponent } from "./replicador/replicador.component";
 import { SaludarComponent } from "./saludar/saludar.component";
+import { ComponenteIfComponent } from "./componente-if/componente-if.component";
 
 @Component({
   selector: 'app-root',
@@ -18,11 +19,11 @@ import { SaludarComponent } from "./saludar/saludar.component";
     InterpolacionComponent,
     PadreComponent,
     EncapsulamientoComponent,
-    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent],
+    MostrarMensajeComponent, ReplicadorComponent, SaludarComponent, ComponenteIfComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Two-way Binding en Angular';
+  title = 'Directiva@if en Angular';
 }
